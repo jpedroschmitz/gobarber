@@ -23,7 +23,7 @@ export const Content = styled.div`
     input {
       background: rgba(0, 0, 0, 0.1);
       border: 0;
-      border-radius: 44px;
+      border-radius: 4px;
       height: 44px;
       padding: 0 15px;
       color: #fff;
@@ -34,8 +34,15 @@ export const Content = styled.div`
       }
     }
 
+    span {
+      color: #fb6f91;
+      align-self: flex-start;
+      margin: 0 0 10px;
+      font-weight: bold;
+    }
+
     button {
-      margin: 5px 7px;
+      margin: 5px 0;
       height: 44px;
       background: #3b9eff;
       color: #fff;
