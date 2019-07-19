@@ -34,7 +34,7 @@ export default function SignIn() {
           placeholder="Sua senha secreta..."
         />
 
-        <button type="submit">{loading ? 'Carregando...' : 'Acessar'}</button>
+        <button type="submit">{!loading ? 'Acessar' : 'Carregando...'}</button>
 
         <Link to="/register">Criar conta gratuita</Link>
       </Form>
