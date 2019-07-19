@@ -18,6 +18,7 @@
     "reactotron-redux": "^3.1.1",
     "reactotron-redux-saga": "^4.2.2",
     "redux": "^4.0.4",
+    "redux-persist": "^5.10.0",
     "redux-saga": "^1.0.5",
     "styled-components": "^4.3.2",
     "yup": "^0.27.0"
