@@ -17,7 +17,8 @@ export default createGlobalStyle`
   }
 
   html, body, #root {
-    height: 100%;
+    height: 100vh;
+    min-height: 100vh;
   }
 
   body {
@@ -38,5 +39,12 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
+  }
+
+  hr {
+    border: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 10px 0 20px;
   }
 `;
